@@ -1,0 +1,25 @@
+#btn{
+  float:right;
+  margin-right: 20px;
+}
+
+.initially-hidden{
+  display: none;
+}
+
+.margin{
+  margin: 0px 20px 0px 20px;
+}
+
+input{
+  float: right;
+}
+
+body{
+  background-color: lightblue;
+}
+
+.bg-info{
+  background-color: lightblue;
+  border: none;
+}

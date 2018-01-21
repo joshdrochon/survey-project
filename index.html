@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Epicodus Survey</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Epicodus Survey</h2>
+      </br>
+      <h3><em>Please complete the survey below by typing the letter that corresponds to your answer in the text fields.</em></h3>
+      <hr>
+      <form id="survey">
+
+        <div class="margin">
+
+          <div class="form-group"> <!--form-group is a bootstrap class-->
+            <label>Computer hardware is (a) interesting, (b) boring, or (c) seems so so... </label>
+            <input id="a1" type="text" name="" value="">
+          </div>
+          <div class="form-group"> <!--form-group is a bootstrap class-->
+            <label>Working 9-5 Mon-Fri is (a) ideal (b) awful! (c) I can dig it... </label>
+            <input id="a2" type="text" name="" value="">
+          </div>
+          <div class="form-group"> <!--form-group is a bootstrap class-->
+            <label>Icecream is: (a) delicious (b) good (b) meh... </label>
+            <input id="a3" type="text" name="" value="">
+          </div>
+          <div class="form-group"> <!--form-group is a bootstrap class-->
+            <label> What do you like more: (a) coffee (b) rubies (c) cascades... </label>
+            <input id="a4" type="text" name="" value="">
+          </div>
+          <div class="form-group"> <!--form-group is a bootstrap class-->
+            <label>My favorite color is: (a) green (b) blue (c) white... </label>
+            <input id="a5" type="text" name="" value="">
+          </div>
+
+        </div><!--end margin-->
+        <hr>
+        <button id="btn" class="btn btn-success" name="button">Submit!</button>
+      </form><!--end survey-->
+
+
+        <div class="initially-hidden" id="java-track">
+          <p>Based the responses you provided, here at <a href="https://www.epicodus.com">Epicodus</a> we think you'd thrive most in our
+          <em>Java/Android</em>track we offer.</p>
+
+          <blockquote class="bg-info">
+            <h3>Testimonials</h3>
+            <p>"I realized where I was, and where I wanted to be. Epicodus was the doorway to get there!"</p>
+            <footer>George Baily</footer></br>
+
+            <p>"I couldn't have asked for a better instructor than John Franti"</p>
+            <footer>Josh Rochon</footer></br>
+          </blockquote>
+        </div>
+
+        <div class="initially-hidden" id="css-track">
+          <p>Based the responses you provided, here at <a href="https://www.epicodus.com">Epicodus</a> we think you'd thrive most in our
+          <em>CSS/Design</em> track we offer.</p>
+        </div>
+
+        <div class="initially-hidden" id="ruby-track">
+          <p>Based the responses you provided, here at <a href="https://www.epicodus.com">Epicodus</a> we think you'd thrive most in our
+          <em>Ruby/Rails</em> track we offer.</p>
+        </div>
+
+        <div class="initially-hidden" id="php-track">
+          <p>Based the responses you provided, here at <a href="https://www.epicodus.com">Epicodus</a> we think you'd thrive most in our
+          <em>PHP/Drupal</em> track we offer.</p>
+        </div>
+
+        <div class="initially-hidden" id="c#-track">
+          <p>Based on the responses you provided, here at <a href="https://www.epicodus.com">Epicodus</a> we think you'd thrive most in our
+          <em>C#/.Net</em> track we offer.</p>
+        </div>
+
+    </div><!--end container-->
+  </body>
+</html>
