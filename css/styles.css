@@ -1,3 +1,7 @@
+.container{
+  padding: 15px
+}
+
 #btn{
   float:right;
   margin-right: 20px;
@@ -5,6 +9,7 @@
 
 .initially-hidden{
   display: none;
+  margin-top: 75px;
 }
 
 .margin{

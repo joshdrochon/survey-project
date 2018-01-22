@@ -8,7 +8,7 @@ $(document).ready(function(){
     var right = [];
     var both = [];
 
-    var answers = ["a1", "a2", "a3", "a4", "a5"];
+    var answers = ["a1", "a2", "a3", "a4", "a5", "a6", "a7"];
 
     answers.forEach(function(answer){
       var input = $("input#" + answer).val().toLowerCase();
@@ -26,11 +26,11 @@ $(document).ready(function(){
 
 
 
-    if(left.length === 5){
+    if(left.length >= 5){
       $("#java-track").show();
-    }else if(right.length === 5){
+    }else if(right.length >= 5){
       $("#css-track").show();
-    }else if(both.length === 5){
+    }else if(both.length >= 5){
       $("#ruby-track").show();
     }else if(left.length >= 3 && left.length < 5){
       $("#php-track, #java-track").show();
